@@ -1,0 +1,6 @@
+@DemoEFAPISalesDB_HostAddress = http://localhost:5023
+
+GET {{DemoEFAPISalesDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

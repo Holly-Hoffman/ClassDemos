@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEFAPISalesDB", "DemoEFAPISalesDB\DemoEFAPISalesDB.csproj", "{99AA1CF3-78B7-4948-A181-B4A2A9ED974A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99AA1CF3-78B7-4948-A181-B4A2A9ED974A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AA1CF3-78B7-4948-A181-B4A2A9ED974A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AA1CF3-78B7-4948-A181-B4A2A9ED974A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AA1CF3-78B7-4948-A181-B4A2A9ED974A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42977AAC-3238-4BB6-8CAF-48D275EB2653}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bmdb-api-ef-demo-c#.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SrKRp4EKl0p0ClRopm0IsKvY+474W4vKSreXCwQjbsk=",
+  "Source": "DemoAPIDSalesDB",
+  "BasePath": "_content/DemoAPIDSalesDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

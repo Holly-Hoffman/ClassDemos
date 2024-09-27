@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bxyptafp+uxXWUFoFfotlTwE1C/s0/V2XR3LMfFlKsM=",
+  "Source": "bmdb-web-api-ef",
+  "BasePath": "_content/bmdb-web-api-ef",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

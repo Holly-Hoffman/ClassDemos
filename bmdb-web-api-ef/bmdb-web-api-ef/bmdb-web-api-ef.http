@@ -1,0 +1,6 @@
+@bmdb_web_api_ef_HostAddress = http://localhost:5291
+
+GET {{bmdb_web_api_ef_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

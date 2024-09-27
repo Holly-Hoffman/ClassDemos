@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\bmdb-web-api-ef.props" />
+</Project>

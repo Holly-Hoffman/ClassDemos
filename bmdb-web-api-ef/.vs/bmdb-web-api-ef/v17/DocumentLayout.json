@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\models\\bmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\models\\bmdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\controllers\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\controllers\\creditscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\controllers\\actorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\models\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C7435D-D60C-4AD4-B0C3-B8E89397CE1A}|bmdb-web-api-ef\\bmdb-web-api-ef.csproj|solutionrelative:bmdb-web-api-ef\\models\\credit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\appsettings.json",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\appsettings.json",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\appsettings.json",
+              "RelativeToolTip": "bmdb-web-api-ef\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-23T13:32:17.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditsController.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\CreditsController.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Controllers\\CreditsController.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\CreditsController.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Controllers\\CreditsController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:17:28.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:17:01.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ActorsController.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\ActorsController.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Controllers\\ActorsController.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Controllers\\ActorsController.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Controllers\\ActorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:16:23.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Program.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Program.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Program.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T13:09:31.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Credit.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Models\\Credit.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Models\\Credit.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Models\\Credit.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Models\\Credit.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:49:55.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BMDBContext.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Models\\BMDBContext.cs",
+              "RelativeDocumentMoniker": "bmdb-web-api-ef\\Models\\BMDBContext.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\bmdb-web-api-ef\\bmdb-web-api-ef\\Models\\BMDBContext.cs",
+              "RelativeToolTip": "bmdb-web-api-ef\\Models\\BMDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:31:56.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

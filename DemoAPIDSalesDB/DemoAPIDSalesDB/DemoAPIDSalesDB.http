@@ -1,0 +1,6 @@
+@DemoAPIDSalesDB_HostAddress = http://localhost:5012
+
+GET {{DemoAPIDSalesDB_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

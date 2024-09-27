@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bmdb-api-ef-demo-c#", "bmdb-api-ef-demo-c#\bmdb-api-ef-demo-c#.csproj", "{556F3308-4E66-45E2-B4CB-B6D75DDBBB31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556F3308-4E66-45E2-B4CB-B6D75DDBBB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556F3308-4E66-45E2-B4CB-B6D75DDBBB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556F3308-4E66-45E2-B4CB-B6D75DDBBB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556F3308-4E66-45E2-B4CB-B6D75DDBBB31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C681B0C9-4B0C-4CA5-9491-EB18CEF68069}
+	EndGlobalSection
+EndGlobal
