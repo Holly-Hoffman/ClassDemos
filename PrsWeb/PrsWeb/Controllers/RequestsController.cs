@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Win32;
 using PrsWeb.Models;
+using System.Text;
 
 namespace PrsWeb.Controllers
 {
@@ -44,9 +39,24 @@ namespace PrsWeb.Controllers
             return request;
         }
 
+        //get requests ready for review (HAH)
+        [HttpGet("review/{userId}")]
+        public async Task<ActionResult<IEnumerable<Request>>> GetRevRequests(int userId)
+        {
+            Request request = await _context.Requests.FindAsync(userId);
+            List<Request> revRequests = new List<Request>();
+            if (request.Id != userId && request.Status == "REVIEW")
+            {
+                revRequests.Add(request);  
+            }
+
+            return revRequests;
+        }
+
+
         // PUT: api/Requests/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        
+
         //Editing one's own request (HAH)
         [HttpPut("{id}")]
         public async Task<IActionResult> PutRequest(int id, Request request)
@@ -91,7 +101,7 @@ namespace PrsWeb.Controllers
             request.SubmittedDate = DateTime.Now;
 
             if (request.Total <= 50.00M) { request.Status = "APPROVED"; }
-            
+
             request.Status = "REVIEW";
 
             try
@@ -201,7 +211,7 @@ namespace PrsWeb.Controllers
 
             requestNumber.Append("R");
             requestNumber.Append(rNumerals);
-            
+
             return requestNumber.ToString();
         }
 
@@ -222,7 +232,7 @@ namespace PrsWeb.Controllers
             request.Total = 0.00M;
             request.SubmittedDate = DateTime.Now;
             request.ReasonForRejection = null;
-            
+
 
             _context.Requests.Add(request);
             await _context.SaveChangesAsync();

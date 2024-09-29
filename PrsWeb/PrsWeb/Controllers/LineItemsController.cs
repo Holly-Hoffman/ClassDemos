@@ -41,6 +41,16 @@ namespace PrsWeb.Controllers
             return lineItem;
         }
 
+        //get line items by request (HAH)
+        [HttpGet("lines-for-req/{reqId}")]
+        public async Task<ActionResult<IEnumerable<LineItem>>> GetRevRequests(int reqId)
+        {
+            var lineRequests = await _context.LineItems.Include(l => l.Product).Include(l => l.Request).Where(l=>l.RequestId == reqId)
+                .ToListAsync();
+
+            return lineRequests;
+        }
+
         // PUT: api/LineItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -69,6 +79,9 @@ namespace PrsWeb.Controllers
                 }
             }
 
+            Request r = lineItem.Request;
+            r.Total = recalcTotal();
+
             return NoContent();
         }
 
@@ -79,6 +92,9 @@ namespace PrsWeb.Controllers
         {
             _context.LineItems.Add(lineItem);
             await _context.SaveChangesAsync();
+
+            Request r = lineItem.Request;
+            r.Total = recalcTotal();
 
             return CreatedAtAction("GetLineItem", new { id = lineItem.Id }, lineItem);
         }
@@ -96,7 +112,21 @@ namespace PrsWeb.Controllers
             _context.LineItems.Remove(lineItem);
             await _context.SaveChangesAsync();
 
+            Request r = lineItem.Request;
+            r.Total = recalcTotal();
+
             return NoContent();
+        }
+
+        public decimal recalcTotal()
+        {
+            decimal total = 0;
+            foreach (var lineItem in _context.LineItems)
+            { decimal cost = lineItem.Product.Price * lineItem.Quantity; 
+            total = total + cost;
+            }
+            
+            return total;
         }
 
         private bool LineItemExists(int id)
