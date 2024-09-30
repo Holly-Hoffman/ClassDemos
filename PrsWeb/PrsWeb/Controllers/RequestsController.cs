@@ -45,7 +45,6 @@ namespace PrsWeb.Controllers
         {
             var revRequests = await _context.Requests.Include(r => r.User).
                 Where(r => r.Status == "REVIEW").Where(r => r.UserId != userId).ToListAsync();
-
             return revRequests;
         }
 
@@ -121,10 +120,10 @@ namespace PrsWeb.Controllers
 
         //approving request (HAH)
         [HttpPut("approve/{id}")]
-        public async Task<IActionResult> Approve(int id, int user)
+        public async Task<IActionResult> Approve(int id)
         {
             Request request = await _context.Requests.FindAsync(id);
-            user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
+            int user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
             if (id != request.Id || request.UserId == user || request.Status != "REVIEW") { return BadRequest(); }
 
             request.Status = "APPROVED";
@@ -150,10 +149,10 @@ namespace PrsWeb.Controllers
 
         //rejecting request (HAH)
         [HttpPut("reject/{id}")]
-        public async Task<IActionResult> Reject(int id, int user, string rejectionReason)
+        public async Task<IActionResult> Reject(int id, string rejectionReason)
         {
             Request request = await _context.Requests.FindAsync(id);
-            user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
+            int user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
             if (id != request.Id || request.UserId == user) { return BadRequest(); }
 
             request.Status = "REJECTED";
