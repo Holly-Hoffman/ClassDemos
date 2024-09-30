@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PrsWeb.Models;
 
+[Table("User")]
 [Index("FirstName", "LastName", "PhoneNumber", Name = "UQ_Person", IsUnique = true)]
 [Index("Email", Name = "UQ_User_Email", IsUnique = true)]
 [Index("Username", Name = "UQ_User_UserName", IsUnique = true)]

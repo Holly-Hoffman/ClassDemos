@@ -54,8 +54,11 @@ namespace PrsWeb.Controllers
         // PUT: api/LineItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutLineItem(int id, LineItem lineItem)
+        public async Task<IActionResult> PutLineItem(int id)
         {
+            LineItem lineItem = await _context.LineItems.FindAsync(id);
+
+
             if (id != lineItem.Id)
             {
                 return BadRequest();

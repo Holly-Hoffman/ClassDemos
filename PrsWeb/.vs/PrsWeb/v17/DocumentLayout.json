@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\controllers\\lineitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\controllers\\lineitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\models\\lineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\models\\lineitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "RequestsController.cs",
               "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\RequestsController.cs",
               "RelativeDocumentMoniker": "PrsWeb\\Controllers\\RequestsController.cs",
               "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\RequestsController.cs",
               "RelativeToolTip": "PrsWeb\\Controllers\\RequestsController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwCkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:22:36.192Z"
+              "WhenOpened": "2024-09-30T16:05:47.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LineItem.cs",
-              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\LineItem.cs",
-              "RelativeDocumentMoniker": "PrsWeb\\Models\\LineItem.cs",
-              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\LineItem.cs",
-              "RelativeToolTip": "PrsWeb\\Models\\LineItem.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwAsAAAAVAAAA",
+              "Title": "Request.cs",
+              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "PrsWeb\\Models\\Request.cs",
+              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\Request.cs",
+              "RelativeToolTip": "PrsWeb\\Models\\Request.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:21:54.21Z",
+              "WhenOpened": "2024-09-30T16:00:02.019Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LineItemsController.cs",
-              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\LineItemsController.cs",
-              "RelativeDocumentMoniker": "PrsWeb\\Controllers\\LineItemsController.cs",
-              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\LineItemsController.cs",
-              "RelativeToolTip": "PrsWeb\\Controllers\\LineItemsController.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAowG8AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T20:21:50.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Program.cs",
-              "RelativeDocumentMoniker": "PrsWeb\\Program.cs",
-              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Program.cs",
-              "RelativeToolTip": "PrsWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:32:53.772Z"
             }
           ]
         }

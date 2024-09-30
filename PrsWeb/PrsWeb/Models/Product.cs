@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PrsWeb.Models;
 
+[Table("Product")]
 [Index("VendorId", "PartNumber", Name = "UQ_Vendor_Part", IsUnique = true)]
 public partial class Product
 {

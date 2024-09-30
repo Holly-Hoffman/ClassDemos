@@ -40,7 +40,7 @@ namespace PrsWeb.Controllers
         }
 
         //get requests ready for review (HAH)
-        [HttpGet("review/{userId}")]
+        [HttpGet("list-review/{userId}")]
         public async Task<ActionResult<IEnumerable<Request>>> GetRevRequests(int userId)
         {
             Request request = await _context.Requests.FindAsync(userId);
@@ -124,11 +124,12 @@ namespace PrsWeb.Controllers
         }
 
         //approving request (HAH)
-        [HttpPut("approve/{requestNumber}")]
-        public async Task<IActionResult> Approve(string requestNumber, int user, Request request)
+        [HttpPut("approve/{id}")]
+        public async Task<IActionResult> Approve(int id, int user)
         {
+            Request request = await _context.Requests.FindAsync(id);
             user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
-            if (requestNumber != request.RequestNumber || request.UserId == user || request.Status != "REVIEW") { return BadRequest(); }
+            if (id != request.Id || request.UserId == user || request.Status != "REVIEW") { return BadRequest(); }
 
             request.Status = "APPROVED";
 
@@ -138,7 +139,7 @@ namespace PrsWeb.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!RequestNumCheck(requestNumber))
+                if (!RequestNumCheck(id.ToString()))
                 {
                     return NotFound();
                 }
@@ -152,11 +153,12 @@ namespace PrsWeb.Controllers
         }
 
         //rejecting request (HAH)
-        [HttpPut("reject/{requestNumber}")]
-        public async Task<IActionResult> Reject(string requestNumber, int user, string rejectionReason, Request request)
+        [HttpPut("reject/{id}")]
+        public async Task<IActionResult> Reject(int id, int user, string rejectionReason)
         {
+            Request request = await _context.Requests.FindAsync(id);
             user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
-            if (requestNumber != request.RequestNumber || request.UserId == user) { return BadRequest(); }
+            if (id != request.Id || request.UserId == user) { return BadRequest(); }
 
             request.Status = "REJECTED";
             request.ReasonForRejection = rejectionReason;
@@ -167,7 +169,7 @@ namespace PrsWeb.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!RequestNumCheck(requestNumber))
+                if (!RequestNumCheck(id.ToString()))
                 {
                     return NotFound();
                 }
