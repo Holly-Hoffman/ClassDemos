@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|d:\\repos\\maximum-bc-081924\\web-api\\classdemos\\prsweb\\prsweb\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10D944BB-B017-4078-88BF-16FEA7F629D8}|PrsWeb\\PrsWeb.csproj|solutionrelative:prsweb\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestsController.cs",
-              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\RequestsController.cs",
-              "RelativeDocumentMoniker": "PrsWeb\\Controllers\\RequestsController.cs",
-              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Controllers\\RequestsController.cs",
-              "RelativeToolTip": "PrsWeb\\Controllers\\RequestsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ4AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:05:47.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Request.cs",
-              "DocumentMoniker": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\Request.cs",
-              "RelativeDocumentMoniker": "PrsWeb\\Models\\Request.cs",
-              "ToolTip": "D:\\Repos\\maximum-bc-081924\\Web-API\\ClassDemos\\PrsWeb\\PrsWeb\\Models\\Request.cs",
-              "RelativeToolTip": "PrsWeb\\Models\\Request.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:00:02.019Z",
-              "EditorCaption": ""
             }
           ]
         }

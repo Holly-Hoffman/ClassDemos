@@ -43,12 +43,8 @@ namespace PrsWeb.Controllers
         [HttpGet("list-review/{userId}")]
         public async Task<ActionResult<IEnumerable<Request>>> GetRevRequests(int userId)
         {
-            Request request = await _context.Requests.FindAsync(userId);
-            List<Request> revRequests = new List<Request>();
-            if (request.Id != userId && request.Status == "REVIEW")
-            {
-                revRequests.Add(request);  
-            }
+            var revRequests = await _context.Requests.Include(r => r.User).
+                Where(r => r.Status == "REVIEW").Where(r => r.UserId != userId).ToListAsync();
 
             return revRequests;
         }
