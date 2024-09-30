@@ -123,8 +123,8 @@ namespace PrsWeb.Controllers
         public async Task<IActionResult> Approve(int id)
         {
             Request request = await _context.Requests.FindAsync(id);
-            int user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
-            if (id != request.Id || request.UserId == user || request.Status != "REVIEW") { return BadRequest(); }
+             
+            if (id != request.Id || request.Status != "REVIEW") { return BadRequest(); }
 
             request.Status = "APPROVED";
 
@@ -152,8 +152,8 @@ namespace PrsWeb.Controllers
         public async Task<IActionResult> Reject(int id, string rejectionReason)
         {
             Request request = await _context.Requests.FindAsync(id);
-            int user = 2;  //THIS WILL NEED TO BE UPDATED TO ACTUALLY TRACK THE USER THAT IS LOGGED IN!!! 
-            if (id != request.Id || request.UserId == user) { return BadRequest(); }
+             
+            if (id != request.Id) { return BadRequest(); }
 
             request.Status = "REJECTED";
             request.ReasonForRejection = rejectionReason;
